@@ -57,7 +57,7 @@ def histograms_x2(tensor1, tensor2):
              bbox={'facecolor': 'orange', 'alpha': 0.75, 'pad': 2})
     plt.grid()
 
-    plt.show()
+    # plt.show()
 
 
 def promedio_valores(tensor):
@@ -84,4 +84,4 @@ with tf.Session() as sess:
     tensor_1000 = sess.run(tensor_1000)
 
 # Función de prueba
-histograms_x2(tensor_100, tensor_1000)
+# histograms_x2(tensor_100, tensor_1000)
